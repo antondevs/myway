@@ -19,6 +19,7 @@
 		951216811E1DA8360063D71C /* WayTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9512167F1E1DA8360063D71C /* WayTableCell.xib */; };
 		9581BE341E1DADD500544A0F /* Route+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE321E1DADD500544A0F /* Route+CoreDataClass.swift */; };
 		9581BE351E1DADD500544A0F /* Route+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE331E1DADD500544A0F /* Route+CoreDataProperties.swift */; };
+		9581BE371E1E2BFA00544A0F /* DataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE361E1E2BFA00544A0F /* DataLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9512167F1E1DA8360063D71C /* WayTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WayTableCell.xib; sourceTree = "<group>"; };
 		9581BE321E1DADD500544A0F /* Route+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9581BE331E1DADD500544A0F /* Route+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9581BE361E1E2BFA00544A0F /* DataLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				951216861E1DAA4C0063D71C /* coredata */,
 				9512167D1E1DA8110063D71C /* cells */,
 				9512167B1E1DA5EE0063D71C /* CoreDataManager.swift */,
+				9581BE361E1E2BFA00544A0F /* DataLayer.swift */,
 				951216661E1DA25A0063D71C /* AppDelegate.swift */,
 				951216681E1DA25A0063D71C /* WaysViewController.swift */,
 				9512166A1E1DA25A0063D71C /* Main.storyboard */,
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9512166F1E1DA25A0063D71C /* myway.xcdatamodeld in Sources */,
+				9581BE371E1E2BFA00544A0F /* DataLayer.swift in Sources */,
 				951216801E1DA8360063D71C /* WayTableCell.swift in Sources */,
 				951216691E1DA25A0063D71C /* WaysViewController.swift in Sources */,
 				9581BE351E1DADD500544A0F /* Route+CoreDataProperties.swift in Sources */,
@@ -297,6 +301,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -346,6 +351,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
