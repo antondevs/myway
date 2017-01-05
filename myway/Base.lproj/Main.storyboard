@@ -60,5 +60,23 @@
             </objects>
             <point key="canvasLocation" x="684" y="137"/>
         </scene>
+        <!--Map-->
+        <scene sceneID="bdK-Fg-D6C">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" title="Map" id="xR9-wt-sGs" customClass="MapViewController" customModule="myway" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i0c-qG-cfc"/>
+                        <viewControllerLayoutGuide type="bottom" id="ctK-5J-IBb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zUH-zs-TkH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vOQ-69-JxJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1526" y="137"/>
+        </scene>
     </scenes>
 </document>

@@ -54,6 +54,11 @@ class WaysViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         
     }
+    
+    override  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MapViewController") as UIViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int)->Int {
         return routes.count;

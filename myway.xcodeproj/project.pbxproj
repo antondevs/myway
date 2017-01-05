@@ -20,6 +20,7 @@
 		9581BE341E1DADD500544A0F /* Route+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE321E1DADD500544A0F /* Route+CoreDataClass.swift */; };
 		9581BE351E1DADD500544A0F /* Route+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE331E1DADD500544A0F /* Route+CoreDataProperties.swift */; };
 		9581BE371E1E2BFA00544A0F /* DataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE361E1E2BFA00544A0F /* DataLayer.swift */; };
+		9581BE391E1E37A100544A0F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581BE381E1E37A100544A0F /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9581BE321E1DADD500544A0F /* Route+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9581BE331E1DADD500544A0F /* Route+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Route+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9581BE361E1E2BFA00544A0F /* DataLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLayer.swift; sourceTree = "<group>"; };
+		9581BE381E1E37A100544A0F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				9581BE361E1E2BFA00544A0F /* DataLayer.swift */,
 				951216661E1DA25A0063D71C /* AppDelegate.swift */,
 				951216681E1DA25A0063D71C /* WaysViewController.swift */,
+				9581BE381E1E37A100544A0F /* MapViewController.swift */,
 				9512166A1E1DA25A0063D71C /* Main.storyboard */,
 				951216701E1DA25A0063D71C /* Assets.xcassets */,
 				951216721E1DA25A0063D71C /* LaunchScreen.storyboard */,
@@ -254,6 +257,7 @@
 				9581BE371E1E2BFA00544A0F /* DataLayer.swift in Sources */,
 				951216801E1DA8360063D71C /* WayTableCell.swift in Sources */,
 				951216691E1DA25A0063D71C /* WaysViewController.swift in Sources */,
+				9581BE391E1E37A100544A0F /* MapViewController.swift in Sources */,
 				9581BE351E1DADD500544A0F /* Route+CoreDataProperties.swift in Sources */,
 				9581BE341E1DADD500544A0F /* Route+CoreDataClass.swift in Sources */,
 				9512167C1E1DA5EE0063D71C /* CoreDataManager.swift in Sources */,
